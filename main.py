@@ -5,8 +5,13 @@
 
 for FizzBuzz in range(101):
     if FizzBuzz % 3 == 0 and FizzBuzz % 5 == 0:
-        print(FizzBuzz, 'Fizz')
+        print(FizzBuzz, 'FizzBuzz')
+        continue
     elif FizzBuzz % 3 == 0:
         print(FizzBuzz, 'Buzz')
+        continue
     elif FizzBuzz % 5 == 0:
-        print(FizzBuzz, 'FizzBuzz')
+        print(FizzBuzz, 'Fizz')
+        continue
+    print(FizzBuzz)
+
